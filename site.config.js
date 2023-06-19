@@ -13,7 +13,7 @@ const CONFIG = {
   projects: [
     {
       name: `PROJECTS`,
-      href: "7unho.blog/projects",
+      href: "projects",
     },
   ],
   // blog setting (required)
