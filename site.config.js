@@ -12,8 +12,8 @@ const CONFIG = {
   },
   projects: [
     {
-      name: `7unho`,
-      href: "https://github.com/7unho/7unho-blog",
+      name: `PORTFOLIO`,
+      href: "7unho.blog/portfolio",
     },
   ],
   // blog setting (required)
@@ -53,7 +53,7 @@ const CONFIG = {
   utterances: {
     enable: true,
     config: {
-      repo: "morethanmin/morethan-log",
+      repo: "7unho/7unho-blog",
       "issue-term": "og:title",
       label: "💬 Utterances",
     },
