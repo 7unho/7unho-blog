@@ -8,12 +8,12 @@ const CONFIG = {
     email: "rlawnsgh8395@gmail.com",
     linkedin: "",
     github: "7unho",
-    instagram: "",
+    instagram: "ho7unkim",
   },
   projects: [
     {
-      name: `PORTFOLIO`,
-      href: "7unho.blog/portfolio",
+      name: `PROJECTS`,
+      href: "7unho.blog/projects",
     },
   ],
   // blog setting (required)
