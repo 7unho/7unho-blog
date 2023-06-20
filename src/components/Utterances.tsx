@@ -9,7 +9,8 @@ type Props = {
 
 const Utterances: React.FC<Props> = ({ issueTerm }) => {
   useEffect(() => {
-    const theme = "github-light"
+    const theme = (CONFIG.blog.theme === "light" ? "github-light" : "github-dark")
+    // const theme = "github-light"
     // 'github-dark'
     const script = document.createElement("script")
     const anchor = document.getElementById("comments")
