@@ -56,7 +56,6 @@ FeedPage.getLayout = function getlayout(page) {
       }}
     >
       {page}
-      <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2F7unho.blog&count_bg=%23DCE1D8&title_bg=%23555555&icon=trustpilot.svg&icon_color=%23E7E6E2&title=Todays&edge_flat=false"/></a>
     </Layout>
   )
 }
