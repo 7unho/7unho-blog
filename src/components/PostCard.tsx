@@ -82,6 +82,8 @@ const PostCard: React.FC<Props> = ({ data }) => {
                   <Tag key={idx}>{tag}</Tag>
                 ))}
             </div>
+            <a href="https://hits.seeyoufarm.com">
+            <img src=`https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://7unho.blog/${data.slug}&count_bg=%23E7E7E7&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=TODAYS&edge_flat=false`/></a>
           </div>
         </article>
       </a>
