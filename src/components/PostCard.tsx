@@ -85,7 +85,7 @@ const PostCard: React.FC<Props> = ({ data }) => {
           </div>
         </article>
       </a>
-    </Link>sss
+    </Link>
   )
 }
 
