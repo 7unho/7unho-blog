@@ -81,6 +81,8 @@ DetailPage.getLayout = function getlayout(page) {
   return (
     <Layout metaConfig={getMetaConfig()} fullWidth={page.props.post?.fullWidth}>
       {page}
+      <a href="https://hits.seeyoufarm.com">
+        <img src=`https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://7unho.blog/{page.props.post.slug}&count_bg=%23E7E7E7&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=TODAYS&edge_flat=false`/></a>
     </Layout>
   )
 }
