@@ -12,7 +12,7 @@ const Footer: React.FC<Props> = () => {
           onClick={() => router.push('/')}
           className="mt-2 cursor-pointer hover:text-black dark:hover:text-gray-100"
         >
-          ← Backd
+          ← Back
         </button>
       </a>
       <a>
