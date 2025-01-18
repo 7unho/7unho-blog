@@ -6,11 +6,6 @@ class MyDocument extends Document {
     return (
       <Html lang={CONFIG.lang}>
         <Head>
-          <link
-            rel="stylesheet"
-            as="font"
-            href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard-dynamic-subset.css"
-          />
           <link rel="icon" href="/favicon.ico" />
           <link
             rel="apple-touch-icon"
@@ -23,9 +18,6 @@ class MyDocument extends Document {
             title="RSS 2.0"
             href="/feed"
           ></link>
-          {/* theme setting */}
-          <meta name="theme-color" content={"#f1f3f5"} />
-
           {/* google search console */}
           {CONFIG.googleSearchConsole.enable === true && (
             <>
@@ -38,12 +30,19 @@ class MyDocument extends Document {
           {/* naver search advisor */}
           {CONFIG.naverSearchAdvisor.enable === true && (
             <>
+<<<<<<< HEAD
               <meta name="google-site-verification" content={CONFIG.googleSearchConsole.config.siteVerification}/>
               <meta name="naver-site-verification" content={CONFIG.naverSearchAdvisor.config.siteVerification}/>
+=======
+              <meta
+                name="naver-site-verification"
+                content={CONFIG.naverSearchAdvisor.config.siteVerification}
+              />
+>>>>>>> upstream/main
             </>
           )}
         </Head>
-        <body className="bg-slate-100 dark:bg-black">
+        <body>
           <Main />
           <NextScript />
         </body>
